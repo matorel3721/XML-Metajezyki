@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><?xml-stylesheet type='text/xsl' href='dealersD.xsl'?>
+<dealers>
+    <dealer id="1">
+        <city>Koszalin</city>
+        <name>Volkswagen</name>
+    </dealer>
+    <dealer id="2">
+        <city>Koszalin</city>
+        <name>Opel</name>
+    </dealer>
+    <dealer id="3">
+        <city>Szczecinek</city>
+        <name>Fiat</name>
+    </dealer>
+    <dealer id="4">
+        <city>Szczecin</city>
+        <name>Ford</name>
+    </dealer>
+    <dealer id="5">
+        <city>Słupsk</city>
+        <name>Renault</name>
+    </dealer>
+    <dealer id="6">
+        <city>Parsęcko</city>
+        <name>Mercedes</name>
+    </dealer>
+    <dealer id="7">
+        <city>Koszalin</city>
+        <name>Skoda</name>
+    </dealer>
+    <dealer id="8">
+        <city>Szczecinek</city>
+        <name>Volvo</name>
+    </dealer>
+</dealers>

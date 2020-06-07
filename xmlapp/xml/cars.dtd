@@ -1,0 +1,51 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT cars (car)+>
+<!ATTLIST cars
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT car (brand,capacity,color,damaged,date,engine,model,price,
+               transmission,type)>
+<!ATTLIST car
+  xmlns CDATA #FIXED ''
+  id CDATA #REQUIRED>
+
+<!ELEMENT brand (#PCDATA)>
+<!ATTLIST brand
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT capacity (#PCDATA)>
+<!ATTLIST capacity
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT color (#PCDATA)>
+<!ATTLIST color
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT damaged (#PCDATA)>
+<!ATTLIST damaged
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT date (#PCDATA)>
+<!ATTLIST date
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT engine (#PCDATA)>
+<!ATTLIST engine
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT model (#PCDATA)>
+<!ATTLIST model
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT price (#PCDATA)>
+<!ATTLIST price
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT transmission (#PCDATA)>
+<!ATTLIST transmission
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT type (#PCDATA)>
+<!ATTLIST type
+  xmlns CDATA #FIXED ''>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="cars">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="car"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="car">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="brand"/>
+        <xs:element ref="capacity"/>
+        <xs:element ref="color"/>
+        <xs:element ref="damaged"/>
+        <xs:element ref="date"/>
+        <xs:element ref="engine"/>
+        <xs:element ref="model"/>
+        <xs:element ref="price"/>
+        <xs:element ref="transmission"/>
+        <xs:element ref="type"/>
+      </xs:sequence>
+      <xs:attribute name="id" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="brand" type="xs:NCName"/>
+  <xs:element name="capacity" type="xs:decimal"/>
+  <xs:element name="color" type="xs:NCName"/>
+  <xs:element name="damaged" type="xs:boolean"/>
+  <xs:element name="date" type="xs:integer"/>
+  <xs:element name="engine" type="xs:NCName"/>
+  <xs:element name="model" type="xs:string"/>
+  <xs:element name="price" type="xs:integer"/>
+  <xs:element name="transmission" type="xs:NCName"/>
+  <xs:element name="type" type="xs:string"/>
+</xs:schema>

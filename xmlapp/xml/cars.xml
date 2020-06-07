@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><?xml-stylesheet type='text/xsl' href='cars.xsl'?>
+<cars>
+    <car id="1">
+        <brand>Opel</brand>
+        <capacity>1.8</capacity>
+        <color>Srebrny</color>
+        <damaged>Tak</damaged>
+        <date>2008</date>
+        <engine>Diesel</engine>
+        <model>Insignia</model>
+        <price>20000</price>
+        <transmission>Manualna</transmission>
+        <type>Sport Hatchback</type>
+        <dealerId href="dealers.xml#2"/>
+    </car>
+    <car id="2">
+        <brand>Volkswagen</brand>
+        <capacity>1.9</capacity>
+        <color>Srebrny</color>
+        <damaged>Tak</damaged>
+        <date>1999</date>
+        <engine>Diesel</engine>
+        <model>Passat</model>
+        <price>2000</price>
+        <transmission>Manualna</transmission>
+        <type>Kombi</type>
+        <dealerId href="dealers.xml#1"/>
+    </car>
+    <car id="3">
+        <brand>Volkswagen</brand>
+        <capacity>2.5</capacity>
+        <color>Czarny</color>
+        <damaged>Nie</damaged>
+        <date>2017</date>
+        <engine>Benzyna</engine>
+        <model>Arteon</model>
+        <price>65000</price>
+        <transmission>Manualna</transmission>
+        <type>Sedan</type>
+        <dealerId href="dealers.xml#1"/>
+    </car>
+    <car id="4">
+        <brand>BMW</brand>
+        <capacity>3.0</capacity>
+        <color>Złoty</color>
+        <damaged>Nie</damaged>
+        <date>2015</date>
+        <engine>Benzyna</engine>
+        <model>M3</model>
+        <price>95000</price>
+        <transmission>Automatyczna</transmission>
+        <type>Sedan</type>
+        <dealerId href="dealers.xml#1"/>
+    </car>
+    <car id="5">
+        <brand>Renault</brand>
+        <capacity>1.6</capacity>
+        <color>Morski</color>
+        <damaged>Nie</damaged>
+        <date>2005</date>
+        <engine>Benzyna</engine>
+        <model>Megane II</model>
+        <price>16000</price>
+        <transmission>Manualna</transmission>
+        <type>Hatchback</type>
+        <dealerId href="dealers.xml#5"/>
+    </car>
+    <car id="6">
+        <brand>Volkswagen</brand>
+        <capacity>1.4</capacity>
+        <color>Czarny</color>
+        <damaged>Nie</damaged>
+        <date>2006</date>
+        <engine>Diesel</engine>
+        <model>Lupo</model>
+        <price>12000</price>
+        <transmission>Manualna</transmission>
+        <type>Hatchback</type>
+        <dealerId href="dealers.xml#1"/>
+    </car>
+    <car id="7">
+        <brand>Audi</brand>
+        <capacity>1.8</capacity>
+        <color>Bordowy</color>
+        <damaged>Nie</damaged>
+        <date>2000</date>
+        <engine>Benzyna</engine>
+        <model>80</model>
+        <price>8000</price>
+        <transmission>Manualna</transmission>
+        <type>Sedan</type>
+        <dealerId href="dealers.xml#1"/>
+    </car>
+    <car id="8">
+        <brand>Volvo</brand>
+        <capacity>2.4</capacity>
+        <color>Szary</color>
+        <damaged>Nie</damaged>
+        <date>2012</date>
+        <engine>Diesel</engine>
+        <model>XC60</model>
+        <price>60000</price>
+        <transmission>Manualna</transmission>
+        <type>SUV</type>
+        <dealerId href="dealers.xml#8"/>
+    </car>
+    <car id="9">
+        <brand>Volvo</brand>
+        <capacity>2.0</capacity>
+        <color>Srebrny</color>
+        <damaged>Nie</damaged>
+        <date>2015</date>
+        <engine>Diesel</engine>
+        <model>V60</model>
+        <price>120000</price>
+        <transmission>Manualna</transmission>
+        <type>Combi</type>
+        <dealerId href="dealers.xml#8"/>
+    </car>
+    <car id="10">
+        <brand>Skoda</brand>
+        <capacity>2.0</capacity>
+        <color>Czarny</color>
+        <damaged>Tak</damaged>
+        <date>2012</date>
+        <engine>Benzyna</engine>
+        <model>Octavia II</model>
+        <price>45000</price>
+        <transmission>Manualna</transmission>
+        <type>Sedan</type>
+        <dealerId href="dealers.xml#7"/>
+    </car>
+    <car id="11">
+        <brand>Mercedes</brand>
+        <capacity>1.6</capacity>
+        <color>Biały</color>
+        <damaged>Nie</damaged>
+        <date>2015</date>
+        <engine>Benzyna</engine>
+        <model>A160</model>
+        <price>80000</price>
+        <transmission>Manualna</transmission>
+        <type>Hatchback</type>
+        <dealerId href="dealers.xml#6"/>
+    </car>
+    <car id="12">
+        <brand>Ford</brand>
+        <capacity>1.8</capacity>
+        <color>Carny</color>
+        <damaged>Tak</damaged>
+        <date>2016</date>
+        <engine>Diesel</engine>
+        <model>Kuga</model>
+        <price>30000</price>
+        <transmission>Manualna</transmission>
+        <type>SUV</type>
+        <dealerId href="dealers.xml#4"/>
+    </car>
+    <car id="13">
+        <brand>Fiat</brand>
+        <capacity>1.0</capacity>
+        <color>Zielony</color>
+        <damaged>Nie</damaged>
+        <date>1973</date>
+        <engine>Benzyna</engine>
+        <model>126p</model>
+        <price>100000</price>
+        <transmission>Manualna</transmission>
+        <type>Hatchback</type>
+        <dealerId href="dealers.xml#3"/>
+    </car>
+    <car id="14">
+        <brand>Fiat</brand>
+        <capacity>1.0</capacity>
+        <color>Czerwony</color>
+        <damaged>Nie</damaged>
+        <date>1973</date>
+        <engine>Benzyna</engine>
+        <model>125p</model>
+        <price>100000</price>
+        <transmission>Manualna</transmission>
+        <type>Sedan</type>
+        <dealerId href="dealers.xml#3"/>
+    </car>
+    <car id="15">
+        <brand>Polonez</brand>
+        <capacity>1.0</capacity>
+        <color>Szary</color>
+        <damaged>Nie</damaged>
+        <date>1973</date>
+        <engine>Benzyna</engine>
+        <model>Karo</model>
+        <price>100000</price>
+        <transmission>Manualna</transmission>
+        <type>Sedan</type>
+        <dealerId href="dealers.xml#3"/>
+    </car>
+</cars>

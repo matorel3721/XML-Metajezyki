@@ -1,0 +1,14 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT dealers (dealer)+>
+<!ATTLIST dealers
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT dealer (name)>
+<!ATTLIST dealer
+  xmlns CDATA #FIXED ''
+  id CDATA #REQUIRED>
+
+<!ELEMENT name (#PCDATA)>
+<!ATTLIST name
+  xmlns CDATA #FIXED ''>
